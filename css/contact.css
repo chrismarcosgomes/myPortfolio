@@ -13,14 +13,14 @@
 
 
 
-.container {
+.myContact {
 	max-width:400px;
 	width:100%;
 	margin:0 auto;
 	position:relative;
 }
 
-#contact input[type="text"], #contact input[type="email"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+#contact input[type="text"], #contact input[type="email"], #contact textarea, #contact button[type="button"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
 
 #contact {
 	background:#F9F9F9;
@@ -29,7 +29,7 @@
 }
 
 #contact h3 {
-	color: rgb(6, 122, 51);
+	color: rgb(21, 82, 216);
 	display: block;
 	font-size: 30px;
 	font-weight: 400;
@@ -70,25 +70,25 @@ fieldset {
   resize:none;
 }
 
-#contact button[type="submit"] {
+#contact .button[type="submit"] {
 	cursor:pointer;
 	width:100%;
 	border:none;
-	background:rgb(6, 122, 51);
+	background:rgb(21, 82, 216);
 	color:#FFF;
 	margin:0 0 5px;
 	padding:10px;
 	font-size:15px;
 }
 
-#contact button[type="submit"]:hover {
-	background:rgb(8, 206, 84);
+#contact .button[type="submit"]:hover {
+	background:rgb(38, 8, 206);
 	-webkit-transition:background 0.3s ease-in-out;
 	-moz-transition:background 0.3s ease-in-out;
 	transition:background-color 0.3s ease-in-out;
 }
 
-#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+#contact .button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
 
 #contact input:focus, #contact textarea:focus {
 	outline:0;

@@ -1,11 +1,15 @@
 h1{
-    color: rgb(6, 122, 51)
+    color: rgb(21, 82, 216);
 }
-h4{
-    color: white
+p{
+    color: white;
+    font-size: 18px;
+    
 }
 strong{
-    color: rgb(6, 122, 51)
+    color: rgb(21, 82, 216);
+    font-size: 25px;
+    
 }
 h3{
     color: white
