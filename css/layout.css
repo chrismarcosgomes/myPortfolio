@@ -11,6 +11,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    height: 100vh;
     color: black;
   }
   
@@ -34,17 +35,3 @@
   }
   
   
-
-  
-  
-  
-  h3{
-      color: blue;
-  }
-  
-  .card-text{
-      color: black;
-  }
-   .card-title{
-       color: black;
-   }
